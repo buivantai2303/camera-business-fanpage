@@ -481,7 +481,7 @@ footer dl, ol, ul {
   font-size: 13px;
   grid-area: auto;
   line-height: 40px;
-  padding: 0px --spacing;
+  padding: auto;
 }
 
 .shoping_cart:hover {
