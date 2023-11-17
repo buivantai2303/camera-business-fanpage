@@ -177,12 +177,24 @@ sony-homepage-content-banner-image.zoom-out {
   
 }
 
+.sale {
+  color: red;
+  padding-right: .5em;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 767.98px) {
 .cards{
   --spacing: 15px;
   --column: 2;
   --object-fit: contain;
 }
+}
+
+
+.card-list {
+  padding-top: 10px;
+  padding-right: 15px;
 }
 
 
@@ -469,8 +481,7 @@ footer dl, ol, ul {
   font-size: 13px;
   grid-area: auto;
   line-height: 40px;
-  padding: 0px 100px;
-
+  padding: 0px --spacing;
 }
 
 .shoping_cart:hover {
@@ -488,3 +499,4 @@ footer dl, ol, ul {
   padding: auto;
   padding-bottom: 20px;
 }
+
